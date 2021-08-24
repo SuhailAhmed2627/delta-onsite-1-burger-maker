@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+body {
+   height: 100vh;
+}
+
+.flex-center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#root {
+   height: 100%;
+}
+
+input,
+button,
+submit {
+   border: none;
+}
+
+a {
+   text-decoration: none;
+   transition: all 0.1s ease-in-out;
+   color: #007bff;
+}
+
+/* .button {
+   color: black;
+   background-color: yellow;
+   border-radius: 10px;
+   width: 150px;
+   height: 50px;
+   font-size: 18px;
+   transition: all 0.3s ease 0s;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+   background-color: orange;
+} */
+
+.upper-container {
+   height: 50%;
+}
+
+.lower-container {
+   height: 50%;
+   background-color: #cf8f2e;
+}
+
+.ing-config {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 5px 0;
+}
+
+.ing-config > p {
+   padding: 10px;
+   font-weight: 700;
+   width: 80px;
+}
+
+button {
+   display: block;
+   font: inherit;
+   padding: 5px;
+   margin: 0 5px;
+   width: 80px;
+   border: 1px solid #aa6817;
+   cursor: pointer;
+   outline: none;
+}
+
+.ingredients > * {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.ing-config :nth-child(2) {
+   background-color: #d39952;
+}
+
+.ing-config :nth-child(3) {
+   background-color: #8f5e1e;
+}
+
+.Bacon {
+   width: 300px;
+   height: 10px;
+   background: linear-gradient(#bf3813, #c45e38);
+}
+
+.Salad {
+   width: 340px;
+   height: 20px;
+   background: linear-gradient(#228c1d, #91ce50);
+   border-radius: 20px;
+}
+
+.Cheese {
+   width: 340px;
+   height: 20px;
+   background: linear-gradient(#f4d004, #d6bb22);
+   border-radius: 20px;
+}
+
+.Meat {
+   width: 300px;
+   height: 25px;
+   background: linear-gradient(#7f3608, #702e05);
+   border-radius: 15px;
+}
